@@ -13,9 +13,11 @@ struct DetailView: View {
         //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         List {
             Section(header: Text("Info")) {
-                Label("Start Meeting", systemImage: "timer")
-                    .font(.headline)
+                NavigationLink(destination: MeetingView() ) {
+                    Label("Start Meeting", systemImage: "timer")
+                        .font(.headline)
                     .foregroundColor(.accentColor)
+                }
                 HStack {
                     Label("Length", systemImage: "clock")
                     Spacer()
@@ -34,7 +36,16 @@ struct DetailView: View {
                 }
                 .accessibilityElement(children: .combine)
             }
+            
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees) { attendee in
+                    
+                    Label(attendee.name, systemImage: "person")
+                }
+                
+            }
         }
+        .navigationTitle(scrum.title)
     }
 }
 
