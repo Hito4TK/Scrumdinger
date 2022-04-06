@@ -27,6 +27,7 @@
 		0836B47927FB379B008009BC /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836B47827FB379B008009BC /* AVPlayer+Ding.swift */; };
 		0836B47C27FB3806008009BC /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0836B47B27FB3806008009BC /* ding.wav */; };
 		08417D6427FC907C00F2FAA3 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417D6327FC907C00F2FAA3 /* History.swift */; };
+		08417D9C27FDD3E400F2FAA3 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417D9B27FDD3E400F2FAA3 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		0836B47827FB379B008009BC /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		0836B47B27FB3806008009BC /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		08417D6327FC907C00F2FAA3 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		08417D9B27FDD3E400F2FAA3 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				0836B47427F9E60E008009BC /* ScrumTimer.swift */,
 				0836B47827FB379B008009BC /* AVPlayer+Ding.swift */,
 				08417D6327FC907C00F2FAA3 /* History.swift */,
+				08417D9B27FDD3E400F2FAA3 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				0836B46F27F88FDB008009BC /* ThemePicker.swift in Sources */,
 				0836B47327F9E052008009BC /* ScrumProgressViewStyle.swift in Sources */,
 				0836B47727F9EC06008009BC /* MeetingFooterView.swift in Sources */,
+				08417D9C27FDD3E400F2FAA3 /* ScrumStore.swift in Sources */,
 				0836B47527F9E60E008009BC /* ScrumTimer.swift in Sources */,
 				081DBF6727EA0EF5002F5150 /* DailyScrum.swift in Sources */,
 				081DBF7127ECBBC8002F5150 /* DetailView.swift in Sources */,
